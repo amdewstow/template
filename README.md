@@ -4,7 +4,29 @@ Template Engine
 A simple template engine designed to allow for a lot of flexibility. 
 
 
+# Install
 To Install with composer
+
+Add this to your composer.json
+
+    "repositories": [
+        {
+          "type": "package",
+          "package": {
+            "name": "amdewstow/template",
+            "version": "1.0.0",
+            "type": "git",
+            "source": {
+              "url": "https://github.com/amdewstow/template.git",
+              "type": "git",
+              "reference": "main"
+            }
+          }
+        }
+    ]
+
+Then
+
 composer require amdewstow/template
 
 
